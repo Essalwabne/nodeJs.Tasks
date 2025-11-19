@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Book Component</title>
+
+    <style>
+      /* עיצוב כללי */
+      body {
+        background-color:white; /* רקע כחול בהיר */
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        margin: 0;
+        font-family: Arial, sans-serif;
+      }
+
+      /* תיבה מרכזית */
+      .container {
+        background-color: #dbe7f0;
+        padding: 25px 35px;
+        border-radius: 10px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.15);
+        text-align: center;
+        height: 70vh;
+        width: 70dvw;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+      }
+
+      header h1 {
+        color: #003366;
+        margin-bottom: 20px;
+      }
+
+      main img {
+        width: 200px;
+        border-radius: 5px;
+      }
+
+      main span {
+        display: block;
+        color: #003366;
+        font-weight: bold;
+        margin-top: 15px;
+      }
+
+      main p {
+        color: #444;
+        font-size: 14px;
+        max-width: 250px;
+        margin: 10px auto;
+      }
+
+      footer {
+        margin-top: 15px;
+        font-size: 13px;
+        color: #003366;
+      }
+    </style>
+  </head>
+
+  <body>
+    <div class="container">
+      <header>
+        <h1>Book Component By Function</h1>
+      </header>
+
+      <main>
+        <img
+          src="https://m.media-amazon.com/images/I/41YkW2pHtbL._SX331_BO1,204,203,200_.jpg"
+          alt="Book cover"
+        />
+        <span>By Kyle Simpson</span>
+        <p>
+          Parts of the language that many JavaScript programmers simply avoid.
+        </p>
+      </main>
+
+      <footer>
+        <p>&copy; 2021 Tania</p>
+      </footer>
+    </div>
+  </body>
+</html>
