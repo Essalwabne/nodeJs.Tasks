@@ -1,0 +1,25 @@
+{
+  "name": "nodetasks",
+  "version": "1.0.0",
+  "description": "",
+  "main": "Task1.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Essalwabne/nodeJs.Tasks.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Essalwabne/nodeJs.Tasks/issues"
+  },
+  "homepage": "https://github.com/Essalwabne/nodeJs.Tasks#readme",
+  "dependencies": {
+    "fs-extra": "^11.3.2",
+    "http": "^0.0.1-security",
+    "mathjs": "^15.0.0"
+  }
+}
